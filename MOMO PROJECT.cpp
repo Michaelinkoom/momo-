@@ -68,11 +68,11 @@ int main()
                 cout << "Enter amount to send: ";
                 cin >> amount;
                 cout << "Enter pin: ";
-                cin >> user_pin;
+                cin >> pin;
 
                 if (amount <= balance) {
                     balance -= amount;
-                    user_pin == new_pin;
+                    pin == new_pin;
                     cout << "Transaction successful" << endl;
                 } else {
                     cout << "Insufficient balance" << endl;
